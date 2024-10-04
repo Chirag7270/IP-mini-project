@@ -1,0 +1,64 @@
+/* Quiz.css */
+.quiz-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+  }
+  
+  .question-box {
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 600px; /* Make the question box wider to fit larger text */
+  }
+  
+  .question-section {
+	margin-bottom: 20px;
+  }
+  
+  .question-count {
+	font-size: 24px; /* Adjust font size for question count */
+	color: #6a82fb;
+	margin-bottom: 10px;
+  }
+  
+  .question-text {
+	font-size: 70px; /* Increase question font size to 70px */
+	font-weight: bold; /* Ensure the question is bold */
+	margin-bottom: 20px;
+  }
+  
+  .answer-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; /* Align options to the left */
+  }
+  
+  .answer-section button {
+	background-color: #6a82fb;
+	color: white;
+	padding: 15px 20px;
+	margin: 10px 0;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 24px; /* Increase font size of options */
+	text-align: left; /* Ensure text is aligned to the left */
+	display: block; /* Make each button take up a whole line */
+  }
+  
+  .answer-section button:hover {
+	background-color: #fc5c7d;
+	transition: 0.3s;
+  }
+  
+  .score-section {
+	font-size: 24px;
+	color: #6a82fb;
+  }
+  
